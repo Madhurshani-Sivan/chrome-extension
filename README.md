@@ -29,18 +29,18 @@ Follow the steps below to install and use the Chrome extension:
 
 Once you complete the installation, you can use the extension as below:
 
-* Open a new tab in the Chrome browser
+1. Open a new tab in the Chrome browser
 
-* Click on the extension icon in the toolbar
+2. Click on the extension icon in the toolbar
 
-* Extension's popup window will be shown
+3. Extension's popup window will be shown
 
 **Usage of the buttons**
 
-1. SAVE INPUT - we can type a link in the input field manually, and then click this button to save it
+* SAVE INPUT - we can type a link in the input field manually, and then click this button to save it
 
-2. SAVE TAB - we can use this button to save the URL of the current tab automatically
+* SAVE TAB - we can use this button to save the URL of the current tab automatically
 
-3. DELETE ALL - we can double click this button to delete all saved links (single click won't work)
+* DELETE ALL - we can double click this button to delete all saved links (single click won't work)
 
 **The saved links will be displayed as a list under the buttons. We can click on them and visit the corresponding links**
