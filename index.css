@@ -8,17 +8,31 @@ body {
 input {
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #5f9341;
+  border: none;
   padding: 10px;
   margin-bottom: 4px;
+  border-bottom: 2px solid #5f9341;
+  font-size: 16px;
+  transition: border-color 0.15s ease;
+}
+
+input:focus {
+  outline: none;
 }
 
 button {
   background: #5f9341;
   color: white;
   padding: 10px 20px;
-  border: 1px solid #5f9341;
+  border: none;
   font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+button:hover {
+  background-color: rgb(69, 133, 45);
 }
 
 ul {
@@ -33,9 +47,38 @@ li {
 
 a {
   color: #5f9341;
+  text-decoration: none;
 }
 
 #delete-btn {
   background: white;
   color: #5f9341;
+  border: 1px solid #5f9341;
+  transition: background-color 0.15s ease;
+}
+
+#delete-btn:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(58, 85, 56);
+  margin-bottom: 20px;
+}
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: rgb(240, 255, 240);
+}
+
+#btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
