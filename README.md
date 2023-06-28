@@ -4,8 +4,6 @@ This a simple chrome extension that allows to save links that we have accessed o
 
 ## Table of Contents
 
-- [Chrome Extension - Link Saver](#chrome-extension---link-saver)
-  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
 
@@ -31,11 +29,11 @@ Follow the steps below to install and use the Chrome extension:
 
 Once you complete the installation, you can use the extension as below:
 
-1. Open a new tab in the Chrome browser
+* Open a new tab in the Chrome browser
 
-2. Click on the extension icon in the toolbar
+* Click on the extension icon in the toolbar
 
-3. Extension's popup window will be shown
+* Extension's popup window will be shown
 
 **Usage of the buttons**
 
